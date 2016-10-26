@@ -53,10 +53,6 @@ public class Magpie2
         {
             response = "That teacher sounds cool!";
         }
-        else if (statement.indexOf(" ") >= 0)
-        {
-            response = "Say something dammit";
-        }
         else
         {
             response = getRandomResponse();
@@ -93,7 +89,7 @@ public class Magpie2
         }
         else if (whichResponse == 4)
         {
-            response = "But why?";
+            response = "Say Something";
         }
         else if (whichResponse == 5)
         {
